@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="bernales.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <input type="text" id="qr-code-value" placeholder="Enter text or URL" />
+        <button onclick="generateQRCode()">Generate</button>
+        <div class="qr-code-container">
+            <img id="qr-code-image" alt="Generated QR Code" />
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="bernales.js"></script>
+</body>
+</html>
